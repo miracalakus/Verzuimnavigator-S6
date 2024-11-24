@@ -1,0 +1,17 @@
+/* src/styles/custom-datepicker.css */
+.react-datepicker__input-container input {
+    color: black; /* Ensure the text color of the input is black */
+  }
+  
+  .react-datepicker__input-container input::placeholder {
+    color: grey; /* Optional: Change placeholder text color if needed */
+  }
+  
+  .react-datepicker__input-container input:focus {
+    color: black; /* Ensure the text color remains black when focused */
+  }
+  
+  .react-datepicker__input-container input[readonly] {
+    color: black; /* Ensure the text color remains black for read-only inputs */
+  }
+  
